@@ -15,61 +15,74 @@
       sizes="16x16 32x32"
       href="https:/katerine.me/favicon.ico"
     />
-    <link href="static/css/published.css" rel="stylesheet" />
-    <link href="static/css/css.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="static/css/styles.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="published-wrap no-ad-size">
-    <div class="note note-detail-markdown">
-      <h2>👋 I'm Katerine Salazar Gonzalez</h2>
+  <body>
+    <div class="flex flex-col sm:p-5 md:p-10 container">
+      <div class="mb-10 py-20">
+        <h1 class="lg:text-4xl md:text-2xl xs:text-xl">
+          <img class="inline-block h-20 w-20 rounded-full ring-2 ring-white" src="images/profile.jpg" alt="">
+          👋 Hello, I'm 
+          
+          <span class="calligraphy font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"">
+            Katerine Salazar Gonzalez
+          </span>
 
-      <p class="container">
+        </h1>
+      </div>
+
+      <div class="mb-20 text-2xl">
         Email me at
-        <a href="mailto:k.salazar.gonzalez.88@gmail.com" rel="nofollow"
-          >k.salazar.gonzalez.88@gmail.com</a
-        >
-        <br />
-        Or
-        <a
-          href="https://fr.linkedin.com/in/katerine-salazar-gonzalez1"
-          rel="nofollow"
-          >let's connect on LinkedIn</a
-        >
-      </p>
-      <!-- img src="/images/profile.jpg" class="avatar float-right" alt="Author Avatar" -->
 
-      <br class="clearfix" />
+        <button class="mx-2 group relative justify-center rounded-md border border-transparent bg-purple-300 py-2 px-4 text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+          <a href="mailto:k.salazar.gonzalez.88@gmail.com" rel="nofollow">k.salazar.gonzalez.88@gmail.com</a>
+        </button>
 
-      <ul>
-        <li>
-          💼 I work at
-          <a href="https://www.assystem.com/en/" rel="nofollow">Assystem</a>,
-          previously <a href="https://www.engie.fr/" rel="nofollow">Engie</a>,
-          ExpatsBerlin and more
-        </li>
-        <li>
-          💪 I have skills in project management, coaching, multi-culturalism
-          and psychology
-        </li>
-        <li>✈️ I'm geographically restless</li>
-        <li>🇨🇴 Soy colombiana</li>
-        <li>🇫🇷 Je suis Française et parisienne</li>
-        <li>🇩🇪 Ich bin ein Berliner</li>
-        <li>🍣 Japanese food and culture has a special place in my heart</li>
-        <li>
-          🐶 My dog Linda is
-          <a href="https://www.instagram.com/linda.juancho/" rel="nofollow"
-            >super cute</a
+        or
+
+        <button class="mx-2 group relative justify-center rounded-md border border-transparent bg-purple-300 py-2 px-4 text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+          <a
+            href="https://fr.linkedin.com/in/katerine-salazar-gonzalez1"
+            rel="nofollow"
+            >let's connect on LinkedIn</a
           >
-        </li>
-        <li>
-          🖼️ See my drawings at
-          <a href="https://www.instagram.com/katogarabato" rel="nofollow"
-            >@katogarabato</a
-          >
-        </li>
-        <li>🤔 "I've never seen a Colombian woman that is so German"</li>
-      </ul>
+        </button>
+      </div>
+
+
+
+      <div class="skills">
+        <ul>
+          <li>
+            <span class="icon">💼</span> I work at
+            <a href="https://www.assystem.com/en/" rel="nofollow" class="text-purple-400">Assystem</a>,
+            previously <a href="https://www.engie.fr/" rel="nofollow" class="text-purple-400">Engie</a>,
+            ExpatsBerlin and more
+          </li>
+          <li>
+            <span class="icon">💪</span> I have skills in project management, coaching, multi-culturalism
+            and psychology
+          </li>
+          <li><span class="icon">✈️</span> I'm geographically restless</li>
+          <li><span class="icon">🇨🇴</span> Soy colombiana</li>
+          <li><span class="icon">🇫🇷</span> Je suis Française et parisienne</li>
+          <li><span class="icon">🇩🇪</span> Ich bin ein Berliner</li>
+          <li><span class="icon">🍣</span> Japanese food and culture has a special place in my heart</li>
+          <li>
+            <span class="icon">🐶</span> My dog Linda is
+            <a href="https://www.instagram.com/linda.juancho/" rel="nofollow" class="text-purple-400">super cute</a>
+          </li>
+          <li>
+            <span class="icon">🖼️</span> See my drawings at
+            <a href="https://www.instagram.com/katogarabato" rel="nofollow" class="text-purple-400">@katogarabato</a>
+          </li>
+          <li><span class="icon">🤔</span> "I've never seen a Colombian woman that is so German"</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
