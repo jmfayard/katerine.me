@@ -21,6 +21,6 @@ Deployed via Netlify at https://katerine-me.netlify.app
 - 🇩🇪 Ich bin und bleibe eine Berlinerin.
 - 🍣 I love to discover different cultures and food.
 - 🐶 Wanna meet my dog Linda? She is [super cute](https://www.instagram.com/linda.juancho/).
-- 🖼️ A glimpse om my life and drawings at [@katogarabato](https://www.instagram.com/katogarabato)
+- 🖼️ A glimpse on my life and drawings at [@katogarabato](https://www.instagram.com/katogarabato)
 - 💍I am married with [Jean-Michel Fayard](https://jmfayard.dev/)
 - 🤔 Me in one sentence: "Too German for a Colombian".
